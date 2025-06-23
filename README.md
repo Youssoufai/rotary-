@@ -1,53 +1,53 @@
-# 🎤 Speaker Website
+# 🇳🇬 Official Website of the Speaker – House of Representatives, Federal Republic of Nigeria
 
-Welcome to the official website of [Your Name] – a public speaker, coach, and thought leader dedicated to inspiring, educating, and transforming lives through impactful storytelling and actionable insights.
-
-## 🌐 Live Website
-👉 [https://yourwebsite.com](https://yourwebsite.com)  
-(Replace with your actual domain)
+This repository contains the source code for the official website of the Speaker of the House of Representatives of the Federal Republic of Nigeria. The website serves as a central hub for legislative updates, policy priorities, public communications, media coverage, and citizen engagement.
 
 ---
 
-## 📌 About the Project
+## 📌 Purpose
 
-This website is built to showcase:
+The website aims to:
 
-- Speaking topics and areas of expertise
-- Upcoming events or bookings
-- Past engagements and testimonials
-- Blog or insights
-- Contact and booking information
-
----
-
-## 🚀 Features
-
-- ✅ Responsive and mobile-friendly design
-- ✅ Speaker profile and biography
-- ✅ Booking/contact form
-- ✅ Testimonials carousel
-- ✅ Blog/updates section (optional)
-- ✅ Social media integration
-- ✅ SEO optimized
+- Provide information on the Speaker’s initiatives, activities, and public statements
+- Share updates on national legislation and the workings of the House of Representatives
+- Offer a platform for public engagement and transparency
+- Publish press releases, official addresses, and media appearances
+- Enable citizens to reach out or request meetings
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **Frontend:** HTML, Tailwind CSS, JavaScript (or React/Vue if applicable)
-- **Backend (Optional):** Laravel / Node.js / Firebase / etc.
-- **Deployment:** Vercel / Netlify / GitHub Pages / cPanel
+- **Frontend:** HTML, Tailwind CSS, JavaScript (or React/Next.js)
+- **Backend (optional):** Laravel / Node.js / Strapi CMS / WordPress
+- **Deployment:** Vercel / Netlify / VPS / cPanel
 
 ---
 
-## 📂 Folder Structure
+## 🚀 Key Features
+
+- ✅ Speaker's Biography and Vision
+- ✅ Legislative News and Updates
+- ✅ Press Releases and Public Addresses
+- ✅ Events and Speeches
+- ✅ Contact and Request Form
+- ✅ Social Media Integration
+- ✅ Mobile Responsiveness and Accessibility
+- ✅ SEO and Security Best Practices
+
+---
+
+## 🧪 Getting Started (Local Development)
 
 ```bash
-📁 public/             # Static assets (images, icons, etc.)
-📁 src/
-│   ├── components/    # Reusable UI components
-│   ├── pages/         # Main pages (Home, About, Contact, etc.)
-│   ├── styles/        # Tailwind or CSS files
-│   └── index.html     # Main HTML file (for vanilla projects)
-📄 package.json        # If using a JS framework
-📄 README.md           # Project overview
+# Clone the repository
+git clone https://github.com/YOUR_ORG/speaker-frn-website.git
+
+# Navigate to the folder
+cd speaker-frn-website
+
+# Install dependencies (if applicable)
+npm install
+
+# Start development server
+npm run dev
