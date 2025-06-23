@@ -1,4 +1,4 @@
-# 🇳🇬 Official Website of the Speaker – House of Representatives, Federal Republic of Nigeria
+# Official Website of the Speaker – House of Representatives, Federal Republic of Nigeria
 
 This repository contains the source code for the official website of the Speaker of the House of Representatives of the Federal Republic of Nigeria. The website serves as a central hub for legislative updates, policy priorities, public communications, media coverage, and citizen engagement.
 
