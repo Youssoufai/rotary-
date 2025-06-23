@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-    "/first.jpg",
-    "/second.jpg",
-    "/third.jpg",
+    "/images/hor.jpg",
+    "/images/witIya.jpg",
+    "/images/IMG-20250623-WA0011.jpg",
 ];
 
 export default function About() {
@@ -27,7 +27,7 @@ export default function About() {
         <section className="p-11 bg-gray-100 overflow-hidden">
             <div className="text-center mb-6">
                 <h1 className="text-4xl font-bold text-black">
-                    About <span className="text-green-600">Muhammad Kabade</span>
+                    About <span className="text-green-600">Speaker Abbas</span>
                 </h1>
             </div>
 
@@ -73,8 +73,8 @@ export default function About() {
             {/* About Text */}
             <div className="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed mt-6">
                 <p className="mb-4">
-                    Muhammad Kabade Suleiman hails from Nasarawan Doya Village, Makarfi LGA, Kaduna State. Born in 1996, he comes from a distinguished lineage as the son of the late Dan-Malikin Zazzau and the grandson of the Emir of Nasarawan Doya. He holds the esteemed traditional title of{" "}
-                    <span className="font-semibold text-black">Santurakin Nasarawan Doya</span>.
+                    Hon. Abbas Tajuedeen hails from Kwarbai, Zaria LGA, Kaduna State. Born 1st October 1965, he comes from a distinguished lineage as a prince of the Zazzau Emirates. He holds the esteemed traditional title of{" "}
+                    <span className="font-semibold text-black">Iyan Zazzau</span>.
                 </p>
 
                 <p>
