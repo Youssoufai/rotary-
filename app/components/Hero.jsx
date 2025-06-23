@@ -47,7 +47,7 @@ const Hero = () => {
                         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                         transition={{ delay: 0.7, duration: 1 }}
                     >
-                        Speaker of The Federal Republic of Nigeria <span className="font-bold">(MON)</span>
+                        Speaker of The Federal Republic of Nigeria <span className="font-bold"></span>
                     </motion.p>
                 </motion.div>
             </section>
