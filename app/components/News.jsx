@@ -5,24 +5,24 @@ import { motion } from "framer-motion";
 const newsData = [
     {
         id: 1,
-        title: "Empowerment: I was honored to attend the massive empowerment program organized by Hon. Umar Shehu Ajilo...",
-        date: "March 8, 2025",
-        description: "I was honore to attend the massive empowerment program organized by Hon.Umar Shehu Ajilo...",
-        image: "/emp.jpg",
+        title: "Speaker Abbas Tajudeen had the honour of representing President Bola Ahmed Tinubu",
+        date: "June 18, 2025",
+        description: "Today, Speaker Abbas Tajudeen had the honour of representing President Bola Ahemd Tinubu, GCFR, at the commissioning of the ultra-modern Mabushi Bus Terminal in Abuja",
+        image: "/images/comission.jpg",
     },
     {
         id: 2,
-        title: "I was present at the 2025 North West Zonal Executive Committee meeting in Kaduna",
-        date: "Feb 15, 2025",
-        description: "Today, I attended the 2025 North West Zonal Executive Committee meeting in Kaduna",
-        image: "/zonal.jpg",
+        title: "Today I had the honour of joining the President for Juma'at Prayers",
+        date: "June 20, 2025",
+        description: "Today, I had the honour of joining His Excellency, President Bola Ahmed Tinubu, GCFR, for Juma'at prayers at the Ansarudeen Mosque in Abuja.",
+        image: "/images/prayers.jpg",
     },
     {
         id: 3,
-        title: "I received my brother, Sen Yakubu Lado Danmarke, at my residence...",
-        date: "Feb 15, 2025",
-        description: "Strategizing for PDP’s Future in Katsina and Beyond",
-        image: "/dan.jpg",
+        title: "The recent killings in Benue State are a tragic reminder for Justice, Peace and Security",
+        date: "June 19, 2025",
+        description: "I am deeply pained by the senseless and barbaric attacks on the people of Yelwata and Daudu in Guma LGA. My heart goes out to the victims, their families, and entire people of Benue State. No one deserves to live in fear or mourn loved ones lost to such evil",
+        image: "/images/benue.jpg",
     },
 ];
 

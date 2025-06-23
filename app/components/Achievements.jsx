@@ -33,15 +33,27 @@ export default function Achievements() {
                     transition={{ duration: 1, delay: 0.3 }}
                     viewport={{ once: false }}
                 >
-                    Over the years, Muhammad Kabade Suleiman has made remarkable contributions to youth empowerment, leadership, and political inclusion in Nigeria.
+                    Over the years, Rt. Hon. Tajudeen Abbas has demonstrated unwavering commitment to national development, youth inclusion, and responsible governance. Through legislation, advocacy, and community engagement, he has championed policies and programs that uplift citizens — especially the younger generation — and strengthen democratic institutions in Nigeria.
                 </motion.p>
 
                 {/* Achievements Grid */}
                 <div className="grid md:grid-cols-3 gap-8">
                     {[
-                        { icon: Award, title: "Youngest PDP National Youth Leader", text: "Became the youngest National Youth Leader of the PDP at age 25, inspiring a new wave of youth involvement in politics." },
-                        { icon: Users, title: "Youth Empowerment Initiatives", text: "Launched multiple programs that have empowered thousands of young Nigerians in leadership, business, and governance." },
-                        { icon: Briefcase, title: "Policy Advocacy & Change", text: "Successfully advocated for policies that create more opportunities for youth in politics and economic development." }
+                        {
+                            icon: Award,
+                            title: "Distinguished Legislative Leadership",
+                            text: "Sponsored the highest number of bills in the 8th Assembly and a record-breaking 74 bills in the 9th Assembly, 21 of which were signed into law — covering education, national security, infrastructure, and governance reform."
+                        },
+                        {
+                            icon: Users,
+                            title: "Community Development & Philanthropy",
+                            text: "Funded and supported numerous community-based projects including education scholarships, rural healthcare initiatives, and economic empowerment programs that have positively impacted thousands of citizens across Kaduna and beyond."
+                        },
+                        {
+                            icon: Briefcase,
+                            title: "Policy Advocacy & National Impact",
+                            text: "Led and contributed to strategic legislation and oversight in committees such as Finance, Commerce, Defence, and Land Transport — driving policy reforms that strengthen national development, infrastructure, and inclusive governance."
+                        }
                     ].map((item, index) => (
                         <motion.div
                             key={index}
@@ -63,10 +75,12 @@ export default function Achievements() {
                     <h3 className="text-3xl font-bold text-green-600 mb-6">Impact in Numbers</h3>
                     <div className="grid md:grid-cols-4 gap-8">
                         {[
-                            { icon: Users, number: "50K+", label: "Youths Empowered" },
-                            { icon: Briefcase, number: "100+", label: "Leadership Programs" },
-                            { icon: Globe, number: "200+", label: "Communities Reached" },
-                            { icon: Target, number: "10+", label: "Years of Advocacy" }
+
+                            { icon: Users, number: "50K+", label: "Citizens Reached Through Empowerment Programs" },
+                            { icon: Briefcase, number: "10+", label: "Committees Served" },
+                            { icon: Globe, number: "200+", label: "Projects Supported Nationally" },
+                            { icon: Target, number: "2011–Present", label: "Years of Active Legislative Service" }
+
                         ].map((item, index) => (
                             <motion.div
                                 key={index}

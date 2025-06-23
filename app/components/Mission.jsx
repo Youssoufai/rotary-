@@ -14,7 +14,7 @@ const Mission = () => {
                     viewport={{ once: false, amount: 0.3 }} // Ensures animation happens every time it's in view
                 >
                     <img
-                        src="/in.jpg"
+                        src="/bya.jpg"
                         alt="Vision and Mission"
                         className="rounded-2xl shadow-lg w-full object-cover"
                     />
@@ -31,9 +31,9 @@ const Mission = () => {
                         <span className="text-black">The </span>Mission
                     </h2>
                     <p className="text-lg text-gray-700 mb-6">
-                        Our vision is to create a Nigeria where the youth are at the forefront of leadership,
-                        innovation, and national development. We strive for a society where every young person
-                        has the opportunity to contribute meaningfully to governance and social progress.
+                        To build a stronger, more inclusive, and accountable Nigeria, where legislation serves the people, democracy is deepened, and national development is driven by equity, integrity, and responsive governance.
+
+                        The Speaker envisions a House of Representatives that is transparent, people-focused, and proactive in addressing the nation’s challenges through effective lawmaking and oversight.
                     </p>
 
                     {/* Animated List */}
@@ -48,10 +48,10 @@ const Mission = () => {
                         }}
                     >
                         {[
-                            "Empowering youth through political participation and leadership training.",
-                            "Advocating for policies that create job opportunities for young people.",
-                            "Building a network of young leaders committed to positive change.",
-                            "Promoting inclusive governance and accountability."
+                            "Strengthening democratic institutions.",
+                            "Amplifying the voice of every Nigerian.",
+                            "Driving legislative reforms for progress.",
+                            "Ensuring transparency and accountability."
                         ].map((item, index) => (
                             <motion.li
                                 key={index}

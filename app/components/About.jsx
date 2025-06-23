@@ -78,8 +78,8 @@ export default function About() {
                 </p>
 
                 <p>
-                    Passionate about youth empowerment, Muhammad aligned with the{" "}
-                    <span className="font-semibold text-black">People's Democratic Party (PDP)</span> from an early age. At just 25, he made history as the National Youth Leader of the PDP, a milestone that signified a new era of youth involvement in Nigerian politics. His leadership continues to inspire and drive meaningful change for young people nationwide.
+                    Abbas began his professional journey as a primary school teacher, where he developed a strong passion for shaping young minds and contributing to grassroots development. {" "}
+                    <span className="font-semibold text-black"></span>His dedication to education led him to academia, where he served as a lecturer at Kaduna State Polytechnic from 1993 to 2001.
                 </p>
             </div>
         </section>
